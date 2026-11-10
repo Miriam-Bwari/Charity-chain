@@ -1,0 +1,19 @@
+# Foundry
+out/
+cache/
+broadcast/**/dry-run/
+.gas-snapshot.tmp
+
+# Node
+node_modules/
+package-lock.json
+
+# Secrets / local
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+*.log
+
